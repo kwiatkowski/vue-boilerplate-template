@@ -8,6 +8,11 @@ module.exports = {
     port: 8080,
   },
   configureWebpack: {
+    resolve: {
+      alias: {
+        '~': path.resolve(__dirname, 'src'),
+      },
+    },
     plugins: [
       new webpack.DefinePlugin({
         'process.env.VUE_APP_TITLE': JSON.stringify(process.env.VUE_APP_TITLE),

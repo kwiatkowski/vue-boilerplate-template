@@ -7,7 +7,7 @@ import VueEventer from 'vue-eventer'
 // import Vuelidate from 'vuelidate'
 
 // custom directives
-// import LoaderDirective from '~/directives/loader.directive'
+import LoaderDirective from '~/directives/loader.directive'
 
 
 export default function setupBasic(app) {

@@ -5,20 +5,18 @@
         src="/assets/images/logo.png"
         />
 
-        <HelloComponent msg="Hello Vue 3!" />
-
-        <div>Hello World! {{ randomValue }}</div>
+        <HelloComponent :msg="'Hello Vue ' +randomValue +'!'" />
     </div>
 </template>
 
 <script>
-import {  mapState, mapActions } from 'vuex'
+// import {  mapState, mapActions } from 'vuex'
 
-import HelloComponent from "./components/HelloComponent.vue"
+import HelloComponent from "~/components/HelloComponent.vue"
 
 export default {
     components: {
-        HelloComponent,
+        HelloComponent
     },
     data() {
         return {
@@ -55,5 +53,6 @@ export default {
     text-align: center;
     color: #2c3e50;
     margin-top: 10px;
+    font-size: 14px;
 }
 </style>

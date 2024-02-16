@@ -1,22 +1,22 @@
-import { createApp } from "vue";
-import App from "./App.vue";
+import { createApp } from "vue"
+import App from "~/App.vue"
 
 // general setup
-import store from './setup/setup-store';
-// import setupBasic from './setup/setup-basic';
-import setupAxios from './setup/setup-axios';
+import store from '~/setup/setup-store'
+// import setupBasic from '~/setup/setup-basic'
+import setupAxios from '~/setup/setup-axios'
 
 // app store
-// import StoreChart from './store/Chart/list.js';
+// import StoreChart from '~/store/Chart/list.js'
 
 // app register store module
-// store.registerModule('chart', StoreChart);
+// store.registerModule('chart', StoreChart)
 
-const app = createApp(App);
+const app = createApp(App)
 
-app.use(store);
+app.use(store)
 
-// setupBasic(app);
-setupAxios(app);
+// setupBasic(app)
+setupAxios(app)
 
-app.mount("#app");
+app.mount("#app")
