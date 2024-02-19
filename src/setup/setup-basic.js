@@ -1,8 +1,8 @@
 // setup-basic.js
-import moment from 'moment'
+// import moment from 'moment'
 
 import * as Vue from 'vue'
-import VueEventer from 'vue-eventer'
+// import VueEventer from 'vue-eventer'
 // import Multiselect from '@vueform/multiselect'
 // import Vuelidate from 'vuelidate'
 
@@ -23,5 +23,5 @@ export default function setupBasic(app) {
     // // app.use(Vuelidate)
     // app.component('Multiselect', Multiselect)
 
-    // app.use(LoaderDirective)
+    app.use(LoaderDirective)
 }

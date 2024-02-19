@@ -21,6 +21,16 @@ module.exports = {
       }),
     ],
   },
+  css: {
+    loaderOptions: {
+      sass: {
+        additionalData: '@import "~@/scss/global";',
+        sassOptions: {
+          includePaths: ["./src/scss"]
+        }
+      }
+    }
+  },
   pages: {
     index: {
       entry: 'src/main.ts',

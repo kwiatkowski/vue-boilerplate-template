@@ -1,0 +1,15 @@
+{
+    "post": {
+        "list": {
+            "title": "Lista postów",
+            "empty": "Brak postów",
+            "search": "Wyszukaj tytuł",
+            "columns": {
+                "id": "Id",
+                "title": "Tytuł",
+                "body": "Treść",
+                "actions": ""
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "post": {
+        "list": {
+            "title": "Lista postów",
+            "empty": "Brak postów",
+            "search": "Wyszukaj tytuł",
+            "columns": {
+                "id": "Id",
+                "title": "Tytuł",
+                "body": "Treść",
+                "actions": ""
+            },
+            "actions": {
+                "delete": "Usuń"
+            }
+        },
+        "modals": {
+            "cancel": "Anuluj",
+            "delete": {
+                "title": "Czy jesteś pewien?",
+                "text": "Czy na pewno chcesz usunąć wpis",
+                "action_text": "Tak, usuń"
+            }
+        }
+    }
+}
